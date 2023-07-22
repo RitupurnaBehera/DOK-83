@@ -33,5 +33,5 @@ def chat(prompt,max_tokens=200):
 
 while True:
     user_prompt = input("user : ")
-    response = chat(user_prompt)
+    response = chat(user_prompt,500)
     print("ChatGPT:", response)
